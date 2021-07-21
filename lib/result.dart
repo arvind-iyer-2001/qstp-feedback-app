@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Result extends StatelessWidget {
-  final Function fxn;
+  final void Function() fxn;
   final int finalScore;
   Result(this.finalScore, this.fxn);
 

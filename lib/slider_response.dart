@@ -33,6 +33,7 @@ class _AnswerState extends State<Answer> {
             min: 1,
             max: 5,
             divisions: 4,
+            
             activeColor: Colors.yellow[value * 200 - 100],
             inactiveColor: Colors.purple[(6 - value) * 200 - 100],
             onChanged: (val) {
